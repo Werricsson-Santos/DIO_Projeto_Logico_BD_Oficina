@@ -35,7 +35,7 @@ INSERT INTO garage (Address, Employees, ParkingSpace) VALUES
 ('Av. F, 567', 8, 10);
 
 
-INSERT INTO mechanic (IdManager, IdGarageMech, FirstName, MiddleInitName, LastName, CPF, Specialty, Salary, Address, Phone) VALUES
+INSERT INTO mechanic (IsManager, IdGarageMech, FirstName, MiddleInitName, LastName, CPF, Specialty, Salary, Address, Phone) VALUES
 (true, 1, 'Pedro', 'A.', 'Santos', '87654321098', 'Motor', 3500.00, 'Rua C, 789', '912345678'),
 (false, 1, 'Ana', 'M.', 'Silva', '65432109876', 'Suspensão', 2500.00, 'Av. D, 987', '998765432'),
 (true, 2, 'Mariana', 'T.', 'Costa', '33344455566', 'Freios', 2800.00, 'Rua I, 543', '777777777'),

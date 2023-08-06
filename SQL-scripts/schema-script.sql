@@ -28,7 +28,7 @@ CREATE TABLE vehicle(
 
 CREATE TABLE mechanic(
 	IdMechanic INT PRIMARY KEY AUTO_INCREMENT,
-    IdManager BOOLEAN,
+    IsManager BOOLEAN,
     FirstName VARCHAR(80),
     MiddleInitName VARCHAR(3),
     LastName VARCHAR(80),
